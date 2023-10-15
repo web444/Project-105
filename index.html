@@ -1,0 +1,79 @@
+ 
+<html>
+    <head>
+      <title>Image recognition</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      <script    src="//unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+  
+     <link rel="stylesheet" href="style.css">
+    
+    </head>
+  
+    <body>
+    <div class="container">
+      
+      <center>
+  
+        <br><br>
+  
+        <p style="font-size: 22px;">Model is trained to identify the following objects: </p>
+  <br><br><br><br>
+  <hr>
+  <b>
+    <p class="objectsrd">Comb</p>
+
+
+
+    <hr>
+    
+    
+    <p class="objectsrd">Phone</p>
+    <hr>
+    
+    
+    
+    <p class="objectsrd">Charger</p>
+    <hr
+    >
+    
+    
+    <p class="objectsrd">Spoon</p>
+  <hr>
+  </b>
+  
+  
+  <br><br><br><br>
+  
+        <label>Webcam View - </label>
+  
+        
+        <br><br><br><br>
+        
+        <div id="WebcamViewer"></div> 
+             
+        <br><br><br><br>
+  
+        <label>Webcam Result - </label>
+        <br><br><br><br>
+        <div id="WebcamResulter"></div>
+  
+        <br><br><br><br>
+  
+  <button id="Checker" class="btn btn-info" onclick="takeSnapshot();">Take Snap</button>
+  <button id="NotChecker" class="btn btn-danger" onclick="correcter();">Find Object</button>
+  
+        <p style="font-size: 22px;" id="resultObjectName">Object :  </p>
+        <p style="font-size: 22px;"id="relutObjectAccuracy">Accuracy :  </p>
+      </center>
+  
+    </div>
+  <script src="main.js"></script>
+  
+    </body>
+  </html>
+  
+   

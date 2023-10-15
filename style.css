@@ -1,0 +1,28 @@
+body{
+    background-color: darkblue;
+    color: aliceblue;
+}
+
+#WebcamViewer{
+
+border: 5px;
+border-color: aqua;
+border-style: dashed;
+width:350;
+height: 250;
+}
+
+#WebcamResulter{
+    border: 5px;
+border-color: aqua;
+border-style: dashed;
+width:350;
+height: 300;
+}
+
+.objectsrd{
+    background-color: black;
+    
+
+
+}
